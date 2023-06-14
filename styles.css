@@ -67,3 +67,21 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+@media (max-width: 1100px) {
+  .btn {
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+  }
+  #level-title {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 650px) {
+  .btn {
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+  }
+}
